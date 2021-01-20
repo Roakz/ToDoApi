@@ -28,7 +28,7 @@ There is also an [ApiController] attribute at the top of the controller. This at
 
 Controllers are included by default in the ConfigureServices method in the startup class. This is where we must declare our services to ASP.net core.
 
-Services seem to be an encouraged concept in ASP.net core in general. They are way of creating reusable independent parts of code that can be registered with a service provider and have clients have their dependancies handled where needed with dependancy injection. Essentially They shouldn't need to rely on anything else. They are self contained and simply provide a service that can be accessed from anywhere. 
+Services seem to be an encouraged concept in ASP.net core in general. They are way of creating reusable independent parts of code that can be registered with a service provider and have clients have their dependancies handled where needed with dependancy injection. Essentially They shouldn't need to rely on anything else. They are self contained and simply provide a service that can be accessed from anywhere or should I pay passed to any client that requires them. 
 
 <h3> Models </h3>
 
