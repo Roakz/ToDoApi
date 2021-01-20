@@ -5,7 +5,7 @@ This is the example application that Microsoft docs guide us through to help und
 
 This was created from Visual Studio 2019 which provides endless support and a substantial amount of scaffolding for ease and speed of development. I also find the IIS express web server integration on windows machines really handy.
 
-<h3>Controllers<h3>
+<h3>Controllers</h3>
 
 The controllers in the this framework are essentialy specify what routes you want to use. This is declared with what they call attributes.
 
